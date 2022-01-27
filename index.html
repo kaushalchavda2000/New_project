@@ -6,28 +6,87 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Figmaland-Business Landing page</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="sass/style.css">
+  <link rel="stylesheet" href="sass/base/font/stylesheet.css">
+  
 </head>
 
 <body>
   <header>
     <div class="header">
       <div class="navbar">
-        <div class="navigation-menu"></div>
-        <div class="logo"></div>
-        <div class="social-media-icons"></div>
+        <div class="navigation-menu-container">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="logo-container">
+          <img src="assets/figmaland_logo.png" alt="logo" class="logo">
+        </div>
+        <div class="menu-icon-container" onclick="clicked();">
+          <img class="menu-icon" src="assets/menu-icon.png" alt="menu icon">
+        </div>
+        <div class="social-media-logos-container">
+          <img class="social-media-logo first-social-media-logo" src="assets/twitter_vector.png" alt="twitter logo">
+          <img class="social-media-logo" src="assets/facebook_vector.png" alt="facebook logo">
+          <img class="social-media-logo" src="assets/linkedin_vector.png" alt="linkedin logo">
+        </div>
+      </div>
+      <div class="header-title-container">
+        <h1 class="header-title header-title-1">The best products start with Figma</h1>
+        <h2 class="header-title header-title-2">The best products start with Figma</h2>
+      </div>
+      <div class="header-text-container">
+        <h4 class="header-text-1">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <h4 class="header-text-2">Most calendars are designed for teams.</h4>
       </div>
       <div>
-        <h1 class="header-title">The best products start with Figma</h1>
-      </div>
-      <div>
-        <p class="header-text">Most calendars are designed for teams.</p>
-      </div>
-      <div>
-        <button class="basic-button">try For Free</button>
+        <button class="basic-button">Try For Free</button>
       </div>
     </div>
   </header>
+
+  <section>
+    <div class="features-section">
+      <div class="features-title-text-container">
+        <div class="features-title-container">
+          <h2>Features</h2>
+        </div>
+        <div class="features-text-container">
+          <h4 class="features-text-1">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+          <h4 class="features-text-2">Most calendars are designed for teams.</h4>
+        </div>
+      </div>
+      <div class="feature-items-container">
+        <div class="feature feature-1">
+          <img src="assets/menu-icon.png" alt="feature logo"/>
+          <h3 class="feature-heading">OpenType features Variable fonts</h3>
+          <p class="feature-paragraph">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+        <div class="feature feature-2">
+          <img src="assets/menu-icon.png" alt="pen logo"/>
+          <h3 class="feature-heading">Design with real data</h3>
+          <p class="feature-paragraph">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+        <div class="feature feature-3">
+          <img src="assets/menu-icon.png" alt="brush logo"/>
+          <h3 class="feature-heading">Fastest way to take action</h3>
+          <p class="feature-paragraph">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+        </div>
+      </div>
+      <div class="video-image-container">
+        <div class="play-button-circle">
+          <div class="play-symbol"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="javascript/app.js"></script>
 </body>
 
 </html>
