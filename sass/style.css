@@ -152,6 +152,7 @@
   border-radius: 35px;
   padding: 16px 0px;
   font-size: 20px;
+  font-family: 'Graphik';
   line-height: 20px;
   border: none;
   outline: none;
@@ -705,6 +706,232 @@
   .features-section #mobile-video-image-container .play-button-circle .play-symbol-container img {
     height: 15px;
     width: 13px;
+  }
+}
+
+.section-1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-1-container .section-1-content {
+  margin: 226px 267px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1243px;
+}
+
+.section-1-container .section-1-content .section-1-text-container {
+  margin: 57.5px 0px;
+  max-width: 532px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 58px;
+}
+
+.section-1-container .section-1-content .section-1-text-container h2 {
+  color: #252B42;
+  max-width: 335px;
+  min-width: 300px;
+  font-family: "Graphik";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  vertical-align: top;
+  margin-bottom: 7px;
+  padding: 10px 0px;
+}
+
+.section-1-container .section-1-content .section-1-text-container h4 {
+  color: #374754;
+  font-family: "Graphik";
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  vertical-align: top;
+  margin-bottom: 60px;
+  padding: 10px 0px;
+}
+
+.section-1-container .section-1-content .section-1-text-container .section-1-text-2 {
+  display: none;
+}
+
+.section-1-container .section-1-content .section-1-text-container .basic-button {
+  width: 236px;
+  height: 60px;
+  border-radius: 35px;
+  padding: 16px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Graphik';
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  border: none;
+  outline: none;
+  background-color: #2091F9;
+  color: white;
+}
+
+.section-1-container .section-1-content .section-1-image-container img {
+  width: 36.4vw;
+  height: 20.9vw;
+}
+
+@media (min-width: 1800px) {
+  .section-1-container .section-1-content {
+    margin: 226px 0px;
+    max-width: 1500px;
+  }
+  .section-1-container .section-1-content .section-1-text-container {
+    max-width: 680px;
+  }
+  .section-1-container .section-1-content .section-1-text-container h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .section-1-container .section-1-content .section-1-text-container h4 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+  }
+  .section-1-container .section-1-content .section-1-image-container img {
+    width: 734px;
+    height: 428px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .section-1-container .section-1-content .section-1-image-container img {
+    width: 39.9vw;
+    height: 21.7vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-1-container .section-1-content {
+    margin: 150px 267px 180px;
+  }
+  .section-1-container .section-1-content .section-1-image-container img {
+    width: 478px;
+    height: 264px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-1-container .section-1-content {
+    margin: 110px 267px 150px;
+  }
+  .section-1-container .section-1-content .section-1-text-container {
+    margin-right: 40px;
+  }
+  .section-1-container .section-1-content .section-1-text-container h2 {
+    max-width: 335px;
+    min-width: 200px;
+    font-size: 35px;
+    line-height: 42px;
+    padding: 0px;
+  }
+  .section-1-container .section-1-content .section-1-text-container h4 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+  .section-1-container .section-1-content .section-1-text-container .basic-button {
+    width: 180px;
+    height: 45px;
+    font-weight: 400;
+    padding: 0px;
+  }
+  .section-1-container .section-1-content .section-1-image-container img {
+    width: 48.2vw;
+    height: 27vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-1-container .section-1-content {
+    margin: 80px 267px 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-1-container .section-1-content {
+    margin: 60px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-1-container .section-1-content .section-1-text-container {
+    margin: 50px 11.5px 59px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-1-container .section-1-content .section-1-text-container h2 {
+    min-width: 300px;
+    font-size: 48px;
+    line-height: 55px;
+    padding: 10px;
+    text-align: center;
+  }
+  .section-1-container .section-1-content .section-1-text-container h4 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 59px;
+    text-align: center;
+    padding: 10px;
+  }
+  .section-1-container .section-1-content .section-1-text-container .section-1-text-1 {
+    display: none;
+  }
+  .section-1-container .section-1-content .section-1-text-container .section-1-text-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section-1-container .section-1-content .section-1-text-container .basic-button {
+    width: 236px;
+    height: 60px;
+    padding: 16px 0px;
+    font-weight: bold;
+  }
+  .section-1-container .section-1-content .section-1-image-container img {
+    width: calc(100vw - 46px);
+    height: 53vw;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .section-1-container .section-1-content {
+    margin: 30px 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
