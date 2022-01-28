@@ -164,7 +164,7 @@
 
 @media(max-width:1200px){
   .header{
-
+    margin-bottom: 90px;
     .navbar{
 
       .navigation-menu-container{
@@ -189,7 +189,7 @@
 
 @media(max-width:992px){
   .header{
-
+    margin-bottom: 60px;
     .navbar{
       justify-content: space-between;
       width: 100%;
@@ -222,6 +222,7 @@
 
 @media(max-width:768px){
   .header{
+    margin-bottom: 40px;
     .navbar{
       position: relative;
       width: calc(100% - 100px);
@@ -270,6 +271,7 @@
 
 @media(max-width:576px){
   .header{
+    margin-bottom: 25px;
     .header-title-container{
       .header-title-2{
         display: flex;
@@ -312,6 +314,7 @@
 
 @media(max-width:420px){
   .header{
+    margin-bottom: 19px;
     .navbar{
       width: calc(100% - 30px);
 
