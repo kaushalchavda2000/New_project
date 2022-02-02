@@ -3,13 +3,11 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 1155px;
   background-color: #252B42;
   .text-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 552px;
     margin-top: 100px;
     margin-bottom: 80px;
 
@@ -39,10 +37,14 @@
       text-align: center;
       vertical-align: top;
     }
+    .text-2{
+      display: none;
+    }
   }
   .cards-container{
     display: flex;
     margin-bottom: 100px;
+    // border 1-1 px extra and price section 23px extra.
 
     .card{
       width: 335px;
@@ -67,6 +69,7 @@
           line-height: 28px;
           letter-spacing: 0.1px;
           vertical-align: top;
+          margin: 3px 0px;
         }
 
         h5{
@@ -195,6 +198,83 @@
       button{
         color: #2091F9;
         background-color: white;
+        margin-bottom: 83px;
+      }
+    }
+  }
+}
+
+@media(max-width:1200px){
+  .pricing{
+    .cards-container{
+      .card{
+        width: 300px;
+      }
+      .card-2{
+        margin: 0px 30px;
+      }
+    }
+  }
+}
+
+@media(max-width:992px){
+  .pricing{
+    .cards-container{
+      flex-direction: column;
+      align-items: center;
+      .card{
+        width: 335px;
+      }
+      .card-2{
+        margin: 0px;
+        .card-title-container{
+          margin-top: 40px;
+        }
+        button{
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:576px){
+  .pricing{
+    .text-container{
+      margin-top: 111px;
+
+      .text-1{
+        display: none;
+      }
+      .text-2{
+        display: flex;
+        width: 90vw;
+      }
+    }
+    .cards-container{
+      .card-1{
+        margin-top: 18px;
+        margin-bottom: 50px;
+      }
+      .card-3{
+        margin-top: 50px;
+        margin-bottom: 18px;
+      }
+    }
+  }
+}
+
+@media(max-width:420px){
+  .pricing{
+    .text-container{
+      .text-2{
+        width: 68.2vw;
+      }
+    }
+    .cards-container{
+      // border (1-1)*3 px and price 23*3
+      .card{
+        width: 300px;
       }
     }
   }
