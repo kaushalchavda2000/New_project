@@ -1,0 +1,124 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #252B42;
+  padding: 150px 0px;
+  .content-container{
+    display: flex;
+    align-items: flex-start;
+    .menus-container{
+      display: flex;
+      margin-right: 125px;
+      .menu{
+        h3{
+          color: white;
+          padding: 10px 0px;
+          font-family: "Graphik";
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0.1px;
+          margin-bottom: 15px;
+        }
+        ul{
+          list-style-type:none;
+          li{
+            margin-bottom: 16px;
+            a{
+              color: white;
+              text-decoration: none;
+              font-family: 'Graphik';
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 28px;
+              letter-spacing: 0.2px;
+              vertical-align: top;
+            }
+          }
+          .last-li{
+            margin-bottom: 0px;
+          }
+        }
+      }
+      .menu-1{
+        width: 170px;
+      }
+      .menu-2{
+        width: 186px;
+        margin: 0px 20px;
+      }
+      .menu-3{
+        width: 186px;
+      }
+    }
+    .contact-container{
+      .address-container{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        img{
+          width: 46px;
+          height: 46px;
+        }
+        a{
+          color: white;
+          text-decoration: none;
+          padding: 0px 8px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 27px;
+          letter-spacing: 0.2px;
+          vertical-align: top;
+        }
+      }
+      .mobile-number-container{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+
+        img{
+          width: 35px;
+          height: 35px;
+        }
+        a{
+          color: white;
+          text-decoration: none;
+          margin: 10px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 27px;
+          letter-spacing: 0.2px;
+        }
+      }
+      .social-media-logos-container{
+        display: flex;
+        align-self: flex-start;
+        padding: 20px 0px;
+
+        div{
+          width: 41px;
+          height: 41px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          #image-1{
+            width: 33px;
+            height: 27px;
+          }
+          #image-2,#image-3{
+            width: 32px;
+            height: 32px;
+          }
+        }
+
+        .div-2{
+          margin: 0px 24px;
+        }
+      }
+    }
+  }
+}

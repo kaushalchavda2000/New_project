@@ -1,0 +1,201 @@
+.pricing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 1155px;
+  background-color: #252B42;
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 552px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+
+    h2{
+      width: 178px;
+      padding: 10px;
+      color: white;
+      font-family: 'Graphik';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 55px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      vertical-align: top;
+      margin-bottom: 7px;
+    }
+
+    h4{
+      width: 552px;
+      padding: 10px;
+      color: white;
+      font-family: 'Graphik';
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      vertical-align: top;
+    }
+  }
+  .cards-container{
+    display: flex;
+    margin-bottom: 100px;
+
+    .card{
+      width: 335px;
+      border: 1px solid #DEDEDE;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .card-title-container{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3{
+          color: #252B42;
+          font-family: 'Graphik';
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 28px;
+          letter-spacing: 0.1px;
+          vertical-align: top;
+        }
+
+        h5{
+          width: 148px;
+          color: #374754;
+          font-family: 'Graphik';
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          letter-spacing: 0.1px;
+          text-align: center;
+          vertical-align: top;
+        }
+      }
+
+      .price{
+        display: flex;
+        margin-bottom: 30px;
+        h1{
+          color: #252B42;
+          padding: 0px 10px;
+          font-family: 'Graphik';
+          font-weight: 700;
+          font-size: 74px;
+          line-height: 84px;
+          letter-spacing: 0.2px;
+          vertical-align: top;
+        }
+        .unit-container{
+          padding-top: 10px;
+          h3{
+            color: #252B42;
+            font-family: 'Graphik';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: 0.1px;
+            vertical-align: top;
+          }
+          h5{
+            color: #374754;
+            font-family: 'Graphik';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            letter-spacing: 0.1px;
+            vertical-align: top;
+          }
+        }
+      }
+
+      ul{
+        list-style-type: none;
+        margin-bottom: 30px;
+
+        li{
+          color: #252B42;
+          padding: 10px;
+          margin: 0px 63px;
+          font-family: 'Graphik';
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+          vertical-align: top;
+        }
+      }
+
+      button{
+        width: 255px;
+        height: 56px;
+        border: none;
+        outline: none;
+        border-radius: 35px;
+        padding: 18px 38px;
+        background-color:#2091F9;
+        color: white;
+        font-family: 'Graphik';
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        vertical-align: top;
+        margin-bottom: 40px;
+      }
+    }
+
+    .card-1,.card-3{
+      margin: 43px 0px;
+      background-color: white;
+    }
+
+    .card-2{
+      margin: 0px 50px;
+      background-color: #2091F9;
+
+      .card-title-container{
+        margin-top: 83px;
+        h3{
+          color: white;
+        }
+        h5{
+          color: white;
+        }
+      }
+
+      .price{
+        
+        h1{
+          color: white;
+         
+        }
+        .unit-container{
+          h3{
+            color:white;
+          }
+          h5{
+            color: white;
+          }
+        }
+      }
+      ul{
+        li{
+          color: white;  
+        }
+      }
+      button{
+        color: #2091F9;
+        background-color: white;
+      }
+    }
+  }
+}

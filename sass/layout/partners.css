@@ -1,0 +1,250 @@
+.partners {
+  width: 1440px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.partners .text-container h2 {
+  color: #252B42;
+  width: 208px;
+  padding: 10px;
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  vertical-align: top;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: 40px;
+}
+
+.partners .text-container h4 {
+  color: #374754;
+  width: 552px;
+  padding: 10px;
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.partners .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 80px;
+}
+
+.partners .image-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .image-container .row .logobox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #D8D8D8;
+}
+
+.partners .image-container .row .logobox h5 {
+  margin-bottom: 13px;
+}
+
+.partners .image-container .row .logobox .logo-title {
+  color: #374754;
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+
+.partners .image-container .row .logobox-1 {
+  width: 273px;
+}
+
+.partners .image-container .row .logobox-1 h5 {
+  margin-top: 31px;
+}
+
+.partners .image-container .row .logobox-1 #image-1 {
+  width: 193px;
+  height: 63px;
+  margin-bottom: 31px;
+}
+
+.partners .image-container .row .logobox-2 {
+  width: 273px;
+}
+
+.partners .image-container .row .logobox-2 h5 {
+  margin-top: 32px;
+}
+
+.partners .image-container .row .logobox-2 #image-2 {
+  width: 193px;
+  height: 58px;
+  margin-bottom: 32px;
+}
+
+.partners .image-container .row .logobox-3 {
+  width: 301px;
+}
+
+.partners .image-container .row .logobox-3 h5 {
+  margin-top: 25px;
+}
+
+.partners .image-container .row .logobox-3 #image-3 {
+  width: 221px;
+  height: 77px;
+  margin-bottom: 25px;
+}
+
+.partners .image-container .row .logobox-4 {
+  width: 220px;
+}
+
+.partners .image-container .row .logobox-4 h5 {
+  margin-top: 25px;
+}
+
+.partners .image-container .row .logobox-4 #image-4 {
+  width: 140px;
+  height: 77px;
+  margin-bottom: 25px;
+}
+
+.partners .image-container .row .logobox-5 {
+  width: 309px;
+}
+
+.partners .image-container .row .logobox-5 h5 {
+  margin-top: 40px;
+}
+
+.partners .image-container .row .logobox-5 #image-5 {
+  width: 229px;
+  height: 46px;
+  margin-bottom: 40px;
+}
+
+.partners .image-container .row .logobox-6 {
+  width: 273px;
+}
+
+.partners .image-container .row .logobox-6 h5 {
+  margin-top: 31px;
+}
+
+.partners .image-container .row .logobox-6 #image-6 {
+  width: 193px;
+  height: 63px;
+  margin-bottom: 31px;
+}
+
+.partners .image-container .row .logobox-7 {
+  width: 220px;
+}
+
+.partners .image-container .row .logobox-7 h5 {
+  margin-top: 25px;
+}
+
+.partners .image-container .row .logobox-7 #image-7 {
+  width: 140px;
+  height: 77px;
+  margin-bottom: 25px;
+}
+
+.partners .image-container .row .logobox-8 {
+  width: 273px;
+}
+
+.partners .image-container .row .logobox-8 h5 {
+  margin-top: 32px;
+}
+
+.partners .image-container .row .logobox-8 #image-8 {
+  width: 193px;
+  height: 58px;
+  margin-bottom: 32px;
+}
+
+.partners .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 236px;
+  height: 60px;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  padding: 16px 0px;
+  background-color: #2091F9;
+  margin-bottom: 80px;
+}
+
+.partners .button-container h3 {
+  color: white;
+  font-family: 'Graphik';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  vertical-align: top;
+}
+/*# sourceMappingURL=partners.css.map */

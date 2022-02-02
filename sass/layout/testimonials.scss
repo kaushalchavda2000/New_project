@@ -1,0 +1,108 @@
+.testimonials{
+  width: 1439px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  // background-color: yellow;
+
+  .title-container{
+    width: 301px;
+    padding: 10px;
+    color: #252B42;
+    font-family: 'Graphik';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 101px;
+    margin-bottom: 80px;
+  }
+
+  .text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    // border: 2px solid black;
+
+    img{
+      width: 150px;
+      height: 60px;
+      margin-bottom: 50px;
+    }
+
+    h4{
+      width: 987px;
+      padding: 10px;
+      color: #374754;
+      font-family: 'Graphik';
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      vertical-align: top;
+      margin-bottom: 50px;
+    }
+
+    .client-container{
+      display: flex;
+
+      .client-image{
+        width: 50px;
+        height: 50px;
+        margin: 0px;
+      }
+      .client-text-container{
+        h5{
+          width: 123px;
+          color: #374754;
+          font-family: 'Graphik';
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 23px;
+          letter-spacing: 0.1px;
+          vertical-align: top;
+          margin: 2px 0px;
+        }
+        p{
+          width: 82px;
+          color: #252B42;
+          font-family: 'Graphik';
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 28px;
+          letter-spacing: 0.2px;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+
+  .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 276px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    padding: 16px 47px;
+    background-color:#2091F9;
+    margin-bottom: 100px;
+
+    h3{
+      color: white;
+      font-family: 'Graphik';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 0.1px;
+      vertical-align: top;
+    }
+  }
+}
