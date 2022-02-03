@@ -4,10 +4,6 @@
   padding: 0px;
 }
 
-// body{
-//   background-color: red;
-// }
-
 .header{
   background-image: url("../assets/header.png");
   background-repeat: no-repeat;
@@ -15,7 +11,6 @@
   background-position: center bottom;
   display: flex;
   width: 100%;
-  // border: 5px solid red;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -24,13 +19,9 @@
   .navbar{
     display: flex;
     justify-content: center;
-    // align-items: center;
-    // border: 3px solid red;
 
     .navigation-menu-container{
       margin-left: 50px;
-      // margin-right: 100px;
-
       ul{
         display: flex;
         list-style-type: none;
@@ -41,7 +32,7 @@
           padding: 10px;
 
           a{
-            font-family: 'Graphik';
+            font-family: $font-1;
             color: white;
             text-decoration: none;
           }
@@ -54,8 +45,7 @@
     .logo-container{
       display: flex;
       padding: 10px;
-      margin: 39px  0px;
-      margin-left: 30px;
+      margin: 39px  0px 39px 30px;
     }
 
     .menu-icon-container{
@@ -63,14 +53,10 @@
     }
 
     .social-media-logos-container{
-      margin-left:300px;
-      margin-top: 60px;
-      margin-right: 12px;
+      margin: 60px  12px 0px 300px;
 
       .social-media-logo{
-        margin-right: 33px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 5px 33px  5px 0px;
         width: 32px;
         height: 32px;
       }
@@ -86,16 +72,15 @@
     padding: 10px;
     display: flex;
     justify-content: center;
-    // border: 2px solid black;
 
     h1{
       max-width: 672px;
-      font-family: 'Graphik';
+      font-family: $family-1;
       font-size:74px;
       line-height: 84px;
       vertical-align: top;
-      font-weight: bold;
-      letter-spacing: 0.2px;
+      font-weight: $weight-3;
+      letter-spacing: $spacing-2;
       color:white;
       text-align: center;
       margin: 0px;
@@ -109,17 +94,10 @@
     max-width: 786px;
     padding: 10px;
     margin-bottom: 80px;
-    // border: 2px solid black;
 
     h4{
+      @include header-4;
       color: white;
-      font-size: 28px;
-      font-family: 'graphik';
-      font-weight: 400;
-      line-height: 40px;
-      letter-spacing: 0.2px;
-      text-align: center;
-      vertical-align: top;
       margin: 0px;
     }
     .header-text-2{
@@ -133,11 +111,11 @@
     border-radius: 35px;
     padding: 16px 0px;
     font-size: 20px;
-    font-family: 'Graphik';
+    font-family: $family-1;
     line-height: 20px;
     border: none;
     outline: none;
-    background-color: #2091F9;
+    background-color: $buttton;
     color: white;
     margin-bottom: 243px;
   }
@@ -279,16 +257,9 @@
     margin-bottom: 25px;
     .header-title-container{
       .header-title-2{
+        @include header-2;
         display: flex;
         color: white;
-        font-family: 'Graphik';
-        font-size: 48px;
-        font-weight: 400;
-        line-height: 55px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        vertical-align: top;
-        
       }
       .header-title-1{
         display: none;
@@ -299,15 +270,9 @@
       margin-bottom: 60px;
     
       .header-text-2{
+        @include header-4;
         display: flex;
         color: white;
-        font-size: 28px;
-        font-family: 'graphik';
-        font-weight: 400;
-        line-height: 40px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        vertical-align: top;
       }
   
       .header-text-1{

@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  // border: 2px solid black;
 
   .features-title-text-container{
     display: flex;
@@ -12,20 +11,12 @@
     max-width: 552px;
     min-height: 182px;
     margin-bottom: 80px;
-    // border: 2px solid black;
     
     .features-title-container{
       padding: 11px;
       margin-bottom: 6px;
       h2{
-        color: #252B42;
-        font-family: "Graphik";
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 55px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        vertical-align: top;
+        @include header-2;
       }
     }
     .features-text-container{
@@ -35,14 +26,7 @@
         display: none;
       }
       h4{
-        color: #374754;
-        font-family: "Graphik";
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 40px;
-        letter-spacing: 0.2px;
-        text-align: center;
-        vertical-align: top;
+        @include header-4;
       }
     }
   }
@@ -55,35 +39,26 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    // border: 2px solid black;
     margin-bottom: 132px;
 
     .feature{
       display: flex;
       flex-direction: column;
       align-items: center;
-      // border: 2px solid black;
 
       h3{
+        @include header-3;
         padding: 10px;
-        text-align: center;
-        color: #252B42;
-        font-family: "Graphik";
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 28px;
-        letter-spacing: 0.1px;
-        vertical-align: top;
         margin: 10px 0px;
       }
       p{
         padding:0px 10px;
-        color: #374754;
-        font-family: "Graphik";
-        font-weight: 400;
+        color: $font-2;
+        font-family: $family-1;
+        font-weight: $weight-1;
         font-size: 18px;
         line-height: 25px;
-        letter-spacing: 0.2px;
+        letter-spacing:$spacing-2;
         text-align: center;
         vertical-align: top;
       }
@@ -124,7 +99,6 @@
     background-size: cover;
     background-position: center center;
     margin-bottom: 52px;
-    // border: 2px solid black;
 
     .play-button-circle{
       background-image: url("../../assets/Ellipse\ 3.png");

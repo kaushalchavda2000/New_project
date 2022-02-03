@@ -54,7 +54,7 @@
 }
 
 .header .navbar .navigation-menu-container ul li a {
-  font-family: 'Graphik';
+  font-family: #252B42;
   color: white;
   text-decoration: none;
 }
@@ -68,8 +68,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
-  margin: 39px  0px;
-  margin-left: 30px;
+  margin: 39px  0px 39px 30px;
 }
 
 .header .navbar .menu-icon-container {
@@ -77,15 +76,11 @@
 }
 
 .header .navbar .social-media-logos-container {
-  margin-left: 300px;
-  margin-top: 60px;
-  margin-right: 12px;
+  margin: 60px  12px 0px 300px;
 }
 
 .header .navbar .social-media-logos-container .social-media-logo {
-  margin-right: 33px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 33px  5px 0px;
   width: 32px;
   height: 32px;
 }
@@ -108,7 +103,7 @@
 
 .header .header-title-container h1 {
   max-width: 672px;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-size: 74px;
   line-height: 84px;
   vertical-align: top;
@@ -130,14 +125,13 @@
 }
 
 .header .header-text-container h4 {
-  color: white;
-  font-size: 28px;
-  font-family: 'graphik';
-  font-weight: 400;
+  color: #374754;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  color: white;
   margin: 0px;
 }
 
@@ -151,7 +145,7 @@
   border-radius: 35px;
   padding: 16px 0px;
   font-size: 20px;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   line-height: 20px;
   border: none;
   outline: none;
@@ -276,17 +270,16 @@
     margin-bottom: 25px;
   }
   .header .header-title-container .header-title-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: white;
-    font-family: 'Graphik';
-    font-size: 48px;
-    font-weight: 400;
+    color: #252B42;
+    font: 400 48px "Graphik";
     line-height: 55px;
     letter-spacing: 0.2px;
     text-align: center;
     vertical-align: top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
   }
   .header .header-title-container .header-title-1 {
     display: none;
@@ -295,17 +288,16 @@
     margin-bottom: 60px;
   }
   .header .header-text-container .header-text-2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: white;
-    font-size: 28px;
-    font-family: 'graphik';
-    font-weight: 400;
+    color: #374754;
+    font: 400 28px "Graphik";
     line-height: 40px;
     letter-spacing: 0.2px;
     text-align: center;
     vertical-align: top;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
   }
   .header .header-text-container .header-text-1 {
     display: none;
@@ -368,9 +360,7 @@
 
 .features-section .features-title-text-container .features-title-container h2 {
   color: #252B42;
-  font-family: "Graphik";
-  font-weight: 400;
-  font-size: 48px;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -387,9 +377,7 @@
 
 .features-section .features-title-text-container .features-text-container h4 {
   color: #374754;
-  font-family: "Graphik";
-  font-weight: 400;
-  font-size: 28px;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -428,15 +416,13 @@
 }
 
 .features-section .feature-items-container .feature h3 {
-  padding: 10px;
-  text-align: center;
   color: #252B42;
-  font-family: "Graphik";
-  font-weight: bold;
-  font-size: 20px;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  padding: 10px;
   margin: 10px 0px;
 }
 
@@ -696,26 +682,26 @@
 
 .section-1-container .section-1-content .section-1-text-container h2 {
   color: #252B42;
-  max-width: 335px;
-  min-width: 300px;
-  font-family: "Graphik";
-  font-weight: 400;
-  font-size: 48px;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
+  max-width: 335px;
+  min-width: 300px;
   margin-bottom: 7px;
   padding: 10px 0px;
 }
 
 .section-1-container .section-1-content .section-1-text-container h4 {
   color: #374754;
-  font-family: "Graphik";
-  font-weight: 400;
-  font-size: 28px;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
   margin-bottom: 60px;
   padding: 10px 0px;
 }
@@ -731,7 +717,7 @@
   padding: 16px 0px;
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
   border: none;
@@ -887,9 +873,7 @@
 }
 
 .prototype-container .prototype-content .prototype-image-container {
-  margin-left: 119px;
-  margin-right: 50px;
-  margin-top: 106px;
+  margin: 106px 50px 0px 119px;
   padding: 9px 0px;
 }
 
@@ -899,9 +883,7 @@
 }
 
 .prototype-container .prototype-content .prototype-text-container {
-  margin-right: 50px;
-  margin-top: 69px;
-  margin-bottom: 69px;
+  margin: 69px 50px 69px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -915,9 +897,7 @@
 }
 
 .prototype-container .prototype-content .prototype-text-container .text-content-container {
-  margin-left: 63px;
-  margin-bottom: 15px;
-  margin-top: 121px;
+  margin: 121px 0px 15px 63px;
   width: 324px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -933,25 +913,25 @@
 }
 
 .prototype-container .prototype-content .prototype-text-container .text-content-container h2 {
-  padding: 10px 0px;
   color: #252B42;
-  font-size: 48px;
-  font-family: "Graphik";
-  font-weight: 400;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
+  text-align: center;
   vertical-align: top;
+  padding: 10px 0px;
+  text-align: left;
 }
 
 .prototype-container .prototype-content .prototype-text-container .text-content-container h3 {
-  width: 174px;
   color: #252B42;
-  font-size: 20px;
-  font-family: "Graphik";
-  font-weight: bold;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
+  width: 174px;
   margin-bottom: 7px;
 }
 
@@ -976,14 +956,14 @@
 }
 
 .prototype-container .prototype-content .prototype-text-container .action-content-container h3 {
-  width: 277px;
   color: #252B42;
-  font-size: 20px;
-  font-family: "Graphik";
-  font-weight: bold;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
+  width: 277px;
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -1026,7 +1006,7 @@
 .prototype-container .prototype-content .prototype-text-container .action-content-container .action-content ::-webkit-input-placeholder {
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #18171D;
   padding-left: 39px;
   padding-top: 19px;
@@ -1036,7 +1016,7 @@
 .prototype-container .prototype-content .prototype-text-container .action-content-container .action-content :-ms-input-placeholder {
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #18171D;
   padding-left: 39px;
   padding-top: 19px;
@@ -1046,7 +1026,7 @@
 .prototype-container .prototype-content .prototype-text-container .action-content-container .action-content ::-ms-input-placeholder {
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #18171D;
   padding-left: 39px;
   padding-top: 19px;
@@ -1056,7 +1036,7 @@
 .prototype-container .prototype-content .prototype-text-container .action-content-container .action-content ::placeholder {
   font-size: 14px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #18171D;
   padding-left: 39px;
   padding-top: 19px;
@@ -1070,7 +1050,7 @@
   padding: 19px 38px;
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   line-height: 20px;
   letter-spacing: 0.2px;
   border: none;
@@ -1363,9 +1343,7 @@
     padding: 10px;
     width: 89vw;
     color: #374754;
-    font-size: 28px;
-    font-family: 'Graphik';
-    font-weight: 400;
+    font: 400 28px "Graphik";
     line-height: 40px;
     letter-spacing: 0.2px;
     text-align: center;
@@ -1482,30 +1460,26 @@
 
 .partners .text-container h2 {
   color: #252B42;
-  width: 208px;
-  padding: 10px;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 48px;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
-  vertical-align: top;
   text-align: center;
+  vertical-align: top;
+  width: 208px;
+  padding: 10px;
   margin-bottom: 7px;
   margin-top: 40px;
 }
 
 .partners .text-container h4 {
   color: #374754;
-  width: 552px;
-  padding: 10px;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 28px;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
-  vertical-align: top;
   text-align: center;
+  vertical-align: top;
+  width: 552px;
+  padding: 10px;
 }
 
 .partners .image-container {
@@ -1551,7 +1525,7 @@
 
 .partners .image-container .row .logobox .logo-title {
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -1691,13 +1665,14 @@
 }
 
 .partners .button-container h3 {
-  color: white;
-  font-family: 'Graphik';
-  font-weight: 700;
-  font-size: 20px;
+  color: #252B42;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  color: white;
+  text-align: left;
 }
 
 @media (max-width: 1200px) {
@@ -1836,16 +1811,14 @@
 }
 
 .testimonials .title-container {
-  width: 301px;
-  padding: 10px;
   color: #252B42;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 48px;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  width: 301px;
+  padding: 10px;
   margin-top: 101px;
   margin-bottom: 80px;
 }
@@ -1871,16 +1844,14 @@
 }
 
 .testimonials .text-container h4 {
-  width: 987px;
-  padding: 10px;
   color: #374754;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 28px;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  width: 987px;
+  padding: 10px;
   margin-bottom: 50px;
 }
 
@@ -1903,7 +1874,7 @@
 .testimonials .text-container .client-container .client-text-container h5 {
   width: 123px;
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -1915,7 +1886,7 @@
 .testimonials .text-container .client-container .client-text-container p {
   width: 82px;
   color: #252B42;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 15px;
   line-height: 28px;
@@ -1944,13 +1915,14 @@
 }
 
 .testimonials .button-container h3 {
-  color: white;
-  font-family: 'Graphik';
-  font-weight: 700;
-  font-size: 20px;
+  color: #252B42;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  color: white;
+  text-align: left;
 }
 
 @media (max-width: 992px) {
@@ -1975,7 +1947,7 @@
   }
   .testimonials .text-container h4 {
     width: 67vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
@@ -1994,13 +1966,13 @@
   .testimonials .text-container .client-container .client-text-container h5 {
     font-size: 10.15px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 15px;
     letter-spacing: 0.08px;
   }
   .testimonials .text-container .client-container .client-text-container p {
     font-size: 13px;
-    font-family: 'Roboto' , sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 23px;
     letter-spacing: 0.17px;
   }
@@ -2044,30 +2016,28 @@
 }
 
 .pricing .text-container h2 {
-  width: 178px;
-  padding: 10px;
-  color: white;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 48px;
+  color: #252B42;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  width: 178px;
+  padding: 10px;
+  color: white;
   margin-bottom: 7px;
 }
 
 .pricing .text-container h4 {
-  width: 552px;
-  padding: 10px;
-  color: white;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 28px;
+  color: #374754;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  width: 552px;
+  padding: 10px;
+  color: white;
 }
 
 .pricing .text-container .text-2 {
@@ -2115,19 +2085,19 @@
 
 .pricing .cards-container .card .card-title-container h3 {
   color: #252B42;
-  font-family: 'Graphik';
-  font-weight: 700;
-  font-size: 20px;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
   margin: 3px 0px;
 }
 
 .pricing .cards-container .card .card-title-container h5 {
   width: 148px;
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -2146,7 +2116,7 @@
 .pricing .cards-container .card .price h1 {
   color: #252B42;
   padding: 0px 10px;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 700;
   font-size: 74px;
   line-height: 84px;
@@ -2160,17 +2130,17 @@
 
 .pricing .cards-container .card .price .unit-container h3 {
   color: #252B42;
-  font-family: 'Graphik';
-  font-weight: 700;
-  font-size: 20px;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
+  text-align: left;
 }
 
 .pricing .cards-container .card .price .unit-container h5 {
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -2187,11 +2157,11 @@
   color: #252B42;
   padding: 10px;
   margin: 0px 63px;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 15px;
   line-height: 28px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.1px;
   vertical-align: top;
 }
 
@@ -2204,7 +2174,7 @@
   padding: 18px 38px;
   background-color: #2091F9;
   color: white;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -2355,29 +2325,25 @@
 }
 
 .contact-us .content-container .text-container h2 {
-  padding: 10px;
   color: #252B42;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 48px;
+  font: 400 48px "Graphik";
   line-height: 55px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  padding: 10px;
   margin-bottom: 7px;
 }
 
 .contact-us .content-container .text-container h4 {
-  width: 552px;
-  padding: 10px;
   color: #374754;
-  font-family: 'Graphik';
-  font-weight: 400;
-  font-size: 28px;
+  font: 400 28px "Graphik";
   line-height: 40px;
   letter-spacing: 0.2px;
   text-align: center;
   vertical-align: top;
+  width: 552px;
+  padding: 10px;
 }
 
 .contact-us .content-container .text-container .text-2 {
@@ -2413,15 +2379,13 @@
 }
 
 .contact-us .content-container .form-map-container .form-container h3 {
-  margin-bottom: 45px;
   color: #252B42;
-  font-family: 'Graphik';
-  font-weight: 700;
-  font-size: 20px;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
   text-align: center;
   vertical-align: top;
+  margin-bottom: 45px;
 }
 
 .contact-us .content-container .form-map-container .form-container input {
@@ -2437,7 +2401,7 @@
 .contact-us .content-container .form-map-container .form-container input::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2445,7 +2409,7 @@
 .contact-us .content-container .form-map-container .form-container input:-ms-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2453,7 +2417,7 @@
 .contact-us .content-container .form-map-container .form-container input::-ms-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2461,7 +2425,7 @@
 .contact-us .content-container .form-map-container .form-container input::placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2479,7 +2443,7 @@
 .contact-us .content-container .form-map-container .form-container .text-area::-webkit-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2487,7 +2451,7 @@
 .contact-us .content-container .form-map-container .form-container .text-area:-ms-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2495,7 +2459,7 @@
 .contact-us .content-container .form-map-container .form-container .text-area::-ms-input-placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2503,7 +2467,7 @@
 .contact-us .content-container .form-map-container .form-container .text-area::placeholder {
   font-size: 15px;
   line-height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   vertical-align: top;
   color: #18171D;
 }
@@ -2515,7 +2479,7 @@
   padding: 18px 38px;
   font-size: 20px;
   font-weight: 400;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   line-height: 20px;
   letter-spacing: 0.2px;
   border: none;
@@ -2569,7 +2533,7 @@
   width: 313px;
   padding: 10px;
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -2592,7 +2556,7 @@
   width: 137px;
   padding: 10px;
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -2611,7 +2575,7 @@
   width: 245px;
   padding: 10px;
   color: #374754;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 23px;
@@ -2842,13 +2806,15 @@
 }
 
 .footer .content-container .menus-container .menu h3 {
-  color: white;
-  padding: 10px 0px;
-  font-family: "Graphik";
-  font-size: 20px;
-  font-weight: 700;
+  color: #252B42;
+  font: 700 20px "Graphik";
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
+  vertical-align: top;
+  text-align: left;
+  color: white;
+  padding: 10px 0px;
   margin-bottom: 15px;
 }
 
@@ -2863,7 +2829,7 @@
 .footer .content-container .menus-container .menu ul li a {
   color: white;
   text-decoration: none;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-size: 15px;
   font-weight: 400;
   line-height: 28px;
@@ -2920,7 +2886,7 @@
   color: white;
   text-decoration: none;
   padding: 0px 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 27px;
@@ -2947,7 +2913,7 @@
   color: white;
   text-decoration: none;
   margin: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 27px;

@@ -1,0 +1,26 @@
+@mixin header-2{
+  color: $font-1;
+  font: $weight-1 $size-1 $family-1;
+  line-height: $height-1;
+  letter-spacing: $spacing-2;
+  text-align: center;
+  vertical-align: top;
+}
+
+@mixin header-4{
+  color: $font-2;
+  font: $weight-1 $size-2 $family-1;
+  line-height: $height-2;
+  letter-spacing: $spacing-2;
+  text-align: center;
+  vertical-align: top;
+}
+
+@mixin header-3{
+  color: $font-1;
+  font: $weight-2 $size-3 $family-1;
+  line-height: $height-3;
+  letter-spacing: $spacing-1;
+  text-align: center;
+  vertical-align: top;
+}

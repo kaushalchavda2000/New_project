@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  background-color: #252B42;
+  background-color: $font-1;
   .text-container{
     display: flex;
     flex-direction: column;
@@ -12,30 +12,18 @@
     margin-bottom: 80px;
 
     h2{
+      @include header-2;
       width: 178px;
       padding: 10px;
       color: white;
-      font-family: 'Graphik';
-      font-weight: 400;
-      font-size: 48px;
-      line-height: 55px;
-      letter-spacing: 0.2px;
-      text-align: center;
-      vertical-align: top;
       margin-bottom: 7px;
     }
 
     h4{
+      @include header-4;
       width: 552px;
       padding: 10px;
       color: white;
-      font-family: 'Graphik';
-      font-weight: 400;
-      font-size: 28px;
-      line-height: 40px;
-      letter-spacing: 0.2px;
-      text-align: center;
-      vertical-align: top;
     }
     .text-2{
       display: none;
@@ -63,24 +51,19 @@
         align-items: center;
 
         h3{
-          color: #252B42;
-          font-family: 'Graphik';
-          font-weight: 700;
-          font-size: 20px;
-          line-height: 28px;
-          letter-spacing: 0.1px;
-          vertical-align: top;
+          @include header-3;
+          text-align: left;
           margin: 3px 0px;
         }
 
         h5{
           width: 148px;
-          color: #374754;
-          font-family: 'Graphik';
-          font-weight: 400;
+          color: $font-2;
+          font-family: $family-1;
+          font-weight: $weight-1;
           font-size: 16px;
           line-height: 23px;
-          letter-spacing: 0.1px;
+          letter-spacing: $spacing-1;
           text-align: center;
           vertical-align: top;
         }
@@ -90,33 +73,28 @@
         display: flex;
         margin-bottom: 30px;
         h1{
-          color: #252B42;
+          color: $font-1;
           padding: 0px 10px;
-          font-family: 'Graphik';
-          font-weight: 700;
+          font-family: $family-1;
+          font-weight: $weight-2;
           font-size: 74px;
           line-height: 84px;
-          letter-spacing: 0.2px;
+          letter-spacing: $spacing-2;
           vertical-align: top;
         }
         .unit-container{
           padding-top: 10px;
           h3{
-            color: #252B42;
-            font-family: 'Graphik';
-            font-weight: 700;
-            font-size: 20px;
-            line-height: 28px;
-            letter-spacing: 0.1px;
-            vertical-align: top;
+            @include header-3;
+            text-align: left;
           }
           h5{
-            color: #374754;
-            font-family: 'Graphik';
-            font-weight: 400;
+            color: $font-2;
+            font-family: $family-1;
+            font-weight: $weight-1;
             font-size: 16px;
             line-height: 23px;
-            letter-spacing: 0.1px;
+            letter-spacing: $spacing-1;
             vertical-align: top;
           }
         }
@@ -127,14 +105,14 @@
         margin-bottom: 30px;
 
         li{
-          color: #252B42;
+          color: $font-1;
           padding: 10px;
           margin: 0px 63px;
-          font-family: 'Graphik';
-          font-weight: 400;
+          font-family: $family-1;
+          font-weight: $weight-1;
           font-size: 15px;
           line-height: 28px;
-          letter-spacing: 0.2px;
+          letter-spacing: $spacing-1;
           vertical-align: top;
         }
       }
@@ -146,12 +124,12 @@
         outline: none;
         border-radius: 35px;
         padding: 18px 38px;
-        background-color:#2091F9;
+        background-color:$buttton;
         color: white;
-        font-family: 'Graphik';
+        font-family: $family-1;
         font-size: 20px;
         line-height: 20px;
-        letter-spacing: 0.2px;
+        letter-spacing: $spacing-2;
         vertical-align: top;
         margin-bottom: 40px;
       }
@@ -164,7 +142,7 @@
 
     .card-2{
       margin: 0px 50px;
-      background-color: #2091F9;
+      background-color: $buttton;
 
       .card-title-container{
         margin-top: 83px;
@@ -197,7 +175,7 @@
         }
       }
       button{
-        color: #2091F9;
+        color: $buttton;
         background-color: white;
         margin-bottom: 83px;
       }

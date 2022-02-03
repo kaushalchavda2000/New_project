@@ -5,16 +5,9 @@
   margin: auto;
 
   .title-container{
+    @include header-2;
     width: 301px;
     padding: 10px;
-    color: #252B42;
-    font-family: 'Graphik';
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: 0.2px;
-    text-align: center;
-    vertical-align: top;
     margin-top: 101px;
     margin-bottom: 80px;
   }
@@ -32,16 +25,9 @@
     }
 
     h4{
+      @include header-4;
       width: 987px;
       padding: 10px;
-      color: #374754;
-      font-family: 'Graphik';
-      font-weight: 400;
-      font-size: 28px;
-      line-height: 40px;
-      letter-spacing: 0.2px;
-      text-align: center;
-      vertical-align: top;
       margin-bottom: 50px;
     }
 
@@ -59,23 +45,23 @@
       .client-text-container{
         h5{
           width: 123px;
-          color: #374754;
-          font-family: 'Graphik';
-          font-weight: 400;
+          color: $font-2;
+          font-family: $family-1;
+          font-weight: $weight-1;
           font-size: 16px;
           line-height: 23px;
-          letter-spacing: 0.1px;
+          letter-spacing: $spacing-1;
           vertical-align: top;
           margin: 2px 0px;
         }
         p{
           width: 82px;
-          color: #252B42;
-          font-family: 'Graphik';
-          font-weight: 400;
+          color: $font-1;
+          font-family: $family-1;
+          font-weight: $weight-1;
           font-size: 15px;
           line-height: 28px;
-          letter-spacing: 0.2px;
+          letter-spacing: $spacing-2;
           vertical-align: top;
         }
       }
@@ -92,17 +78,13 @@
     outline: none;
     border-radius: 35px;
     padding: 16px 47px;
-    background-color:#2091F9;
+    background-color:$buttton;
     margin-bottom: 100px;
 
     h3{
+      @include header-3;
       color: white;
-      font-family: 'Graphik';
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 28px;
-      letter-spacing: 0.1px;
-      vertical-align: top;
+      text-align: left;
     }
   }
 }
@@ -133,7 +115,7 @@
       }
       h4{
         width: 67vw;
-        font-family: 'Roboto', sans-serif;
+        font-family: $family-2;
         font-weight: 700;
         font-size: 16px;
         line-height: 23px;
@@ -155,15 +137,15 @@
         .client-text-container{
           h5{
             font-size: 10.15px;
-            font-weight: 700;
-            font-family: 'Roboto', sans-serif;
+            font-weight: $weight-2;
+            font-family:$family-2;
             line-height: 15px;
             letter-spacing: 0.08px;
           }
 
           p{
             font-size: 13px;
-            font-family: 'Roboto' , sans-serif;
+            font-family: $family-2;
             line-height: 23px;
             letter-spacing: 0.17px;
           }

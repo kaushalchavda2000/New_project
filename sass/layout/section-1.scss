@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // border: 2px solid black;
+
   .section-1-content{
     margin: 226px 267px;
     display: flex;
     align-items: center;
     max-width: 1243px;
-    // border: 2px solid black;
+
 
     .section-1-text-container{
       margin: 57.5px 0px;
@@ -17,30 +17,20 @@
       flex-direction: column;
       align-items: flex-start;
       margin-right: 58px;
-      // border: 2px solid black;
+  
 
       h2{
-        color: #252B42;
+        @include header-2;
+        text-align: left;
         max-width: 335px;
         min-width: 300px;
-        font-family: "Graphik";
-        font-weight: 400;
-        font-size: 48px;
-        line-height: 55px;
-        letter-spacing: 0.2px;
-        vertical-align: top;
         margin-bottom: 7px;
         padding: 10px 0px;
       }
 
       h4{
-        color: #374754;
-        font-family: "Graphik";
-        font-weight: 400;
-        font-size: 28px;
-        line-height: 40px;
-        letter-spacing: 0.2px;
-        vertical-align: top;
+        @include header-4;
+        text-align: left;
         margin-bottom: 60px;
         padding: 10px 0px;
       }
@@ -54,14 +44,14 @@
         height: 60px;
         border-radius: 35px;
         padding: 16px 0px;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: 'Graphik';
-        line-height: 28px;
-        letter-spacing: 0.1px;
+        font-size: $size-3;
+        font-weight: $weight-3;
+        font-family: $family-1;
+        line-height: $height-3;
+        letter-spacing: $spacing-1;
         border: none;
         outline: none;
-        background-color: #2091F9;
+        background-color: $buttton;
         color: white;
       }
     }
@@ -128,8 +118,8 @@
         }
   
         h4{
-          font-size: 20px;
-          line-height: 28px;
+          font-size: $size-3;
+          line-height: $height-3;
           margin-bottom: 20px;
         }
   
@@ -195,16 +185,16 @@
   
         h2{
           min-width: 300px;
-          font-size: 48px;
-          line-height: 55px;
+          font-size: $size-1;
+          line-height: $height-1;
           padding: 10px;
           text-align: center;
         }
   
         h4{
 
-          font-size: 28px;
-          line-height: 40px;
+          font-size: $size-2;
+          line-height: $height-2;
           margin-bottom: 57px;
           text-align: center;
           padding: 10px;
@@ -222,7 +212,7 @@
           width: 236px;
           height: 60px;
           padding: 16px 0px;
-          font-weight: bold;
+          font-weight: $weight-3;
         }
       }
 
