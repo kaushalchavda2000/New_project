@@ -68,7 +68,8 @@
 
 .pricing .cards-container .card {
   width: 335px;
-  border: 1px solid #DEDEDE;
+  outline: 1px solid #DEDEDE;
+  outline-offset: -1px;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -301,7 +302,7 @@
     width: 68.2vw;
   }
   .pricing .cards-container .card {
-    width: 300px;
+    width: 290px;
   }
 }
 /*# sourceMappingURL=pricing.css.map */

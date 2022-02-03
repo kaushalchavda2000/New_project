@@ -1,7 +1,6 @@
 .contact-us {
-  width: 1440px;
   margin: auto;
-  padding: 153px 106px 52px;
+  padding: 153px auto 52px;
 }
 
 .contact-us .content-container {
@@ -58,6 +57,10 @@
   vertical-align: top;
 }
 
+.contact-us .content-container .text-container .text-2 {
+  display: none;
+}
+
 .contact-us .content-container .form-map-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,7 +82,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid #DDDDDD;
+  outline: 1px solid #DDDDDD;
+  outline-offset: -1px;
   border-radius: 20px;
   padding: 51px 49px;
   margin-right: 50px;
@@ -93,6 +97,7 @@
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.1px;
+  text-align: center;
   vertical-align: top;
 }
 
@@ -255,8 +260,8 @@
 }
 
 .contact-us .content-container .form-map-container .map-container .contact-details-container .mobile-number-container img {
-  width: 21px;
-  height: 34px;
+  width: 20px;
+  height: 32px;
   margin-bottom: 10px;
 }
 
@@ -338,5 +343,147 @@
 
 .contact-us .content-container .form-map-container .map-container .social-media-logos-container .div-2 {
   margin: 0px 24px;
+}
+
+@media (max-width: 1400px) {
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 51px 30px;
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-us .content-container .form-map-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 51px 150px;
+    margin-right: 0px;
+  }
+  .contact-us .content-container .form-map-container .map-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contact-us .content-container .form-map-container .map-container .social-media-logos-container {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 51px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 51px 49px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-us .content-container .text-container {
+    margin-top: 150px;
+  }
+  .contact-us .content-container .text-container .text-1 {
+    display: none;
+  }
+  .contact-us .content-container .text-container .text-2 {
+    display: block;
+    width: 90vw;
+  }
+  .contact-us .content-container .form-map-container {
+    margin-bottom: 149px;
+  }
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 52px 49px;
+  }
+  .contact-us .content-container .form-map-container .form-container h3 {
+    width: 280px;
+  }
+  .contact-us .content-container .form-map-container .form-container input {
+    width: 280px;
+  }
+  .contact-us .content-container .form-map-container .form-container .text-area {
+    width: 280px;
+  }
+  .contact-us .content-container .form-map-container .map-container .map-image-container {
+    display: none;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container {
+    padding: 18px 0px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container div {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container div img {
+    margin-bottom: 0px;
+    margin-right: 11px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .address-container img {
+    margin-bottom: 0px;
+    margin-right: 11px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .address-container h5 {
+    text-align: left;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .mobile-number-container {
+    margin: 10px 0px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .mobile-number-container img {
+    margin-bottom: 0px;
+    margin-right: 11px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .email-container img {
+    margin-bottom: 0px;
+    margin-right: 11px;
+  }
+}
+
+@media (max-width: 410px) {
+  .contact-us .content-container .form-map-container .form-container {
+    padding: 30px 20px;
+  }
+  .contact-us .content-container .form-map-container .form-container h3 {
+    width: 250px;
+  }
+  .contact-us .content-container .form-map-container .form-container input {
+    width: 250px;
+  }
+  .contact-us .content-container .form-map-container .form-container .text-area {
+    width: 250px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .address-container {
+    width: 280px;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .address-container h5 {
+    width: auto;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .mobile-number-container h5 {
+    width: auto;
+  }
+  .contact-us .content-container .form-map-container .map-container .contact-details-container .email-container h5 {
+    width: auto;
+  }
 }
 /*# sourceMappingURL=contact-us.css.map */
