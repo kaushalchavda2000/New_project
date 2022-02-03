@@ -53,6 +53,9 @@
       }
     }
     .contact-container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       .address-container{
         display: flex;
         align-items: center;
@@ -117,6 +120,107 @@
 
         .div-2{
           margin: 0px 24px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:1200px){
+  .footer{
+    .content-container{
+      .menus-container{
+        margin-right: 50px;
+      }
+    }
+  }
+}
+
+
+@media(max-width:992px){
+  .footer{
+    .content-container{
+      flex-direction: column;
+      align-items: center;
+      .menus-container{
+        margin: 0px;
+        margin-bottom: 76px;
+        .menu{
+          width: 186px;
+          h3{
+            text-align: center;
+          }
+          ul{
+            li{
+              text-align: center;
+            }
+          }
+        }
+      }
+      .contact-container{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90vw;
+        .address-container{
+          flex-direction: column;
+        }
+        .mobile-number-container{
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:768px){
+  .footer{
+    .content-container{
+      .menus-container{
+        .menu{
+          width: 170px;
+        }
+        .menu-1{
+          width: 150px;
+        }
+        .menu-2{
+          margin-left: 0px;
+        }
+      }
+      .contact-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        width: auto;
+        .address-container{
+          flex-direction: row;
+        }
+        .mobile-number-container{
+          flex-direction: row;
+        }
+        .social-media-logos-container{
+          align-self: center;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:576px){
+  .footer{
+    padding: 0px;
+    .content-container{
+      margin: 107px auto;
+      .menus-container{
+        flex-direction: column;
+        margin-bottom: 76px;
+        .menu{
+          width: 186px;
+        }
+        .menu-1{
+          margin-bottom: 73px;
+        }
+        .menu-2{
+          margin: 0px;
+          margin-bottom: 73px;
         }
       }
     }

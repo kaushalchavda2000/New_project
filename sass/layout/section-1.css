@@ -88,30 +88,6 @@
   height: 20.9vw;
 }
 
-@media (min-width: 1800px) {
-  .section-1-container .section-1-content {
-    margin: 226px 0px;
-    max-width: 1500px;
-  }
-  .section-1-container .section-1-content .section-1-text-container {
-    max-width: 680px;
-  }
-  .section-1-container .section-1-content .section-1-text-container h2 {
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 75px;
-  }
-  .section-1-container .section-1-content .section-1-text-container h4 {
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 55px;
-  }
-  .section-1-container .section-1-content .section-1-image-container img {
-    width: 734px;
-    height: 428px;
-  }
-}
-
 @media (max-width: 1400px) {
   .section-1-container .section-1-content {
     margin: 150px 267px 180px;
