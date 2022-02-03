@@ -464,14 +464,14 @@
   position: relative;
   width: 1177px;
   height: 658px;
-  background-image: url("../../assets/video_image.png");
+  background-image: url("./../assets/video_image.png");
   background-size: cover;
   background-position: center center;
   margin-bottom: 52px;
 }
 
 .features-section .video-image-container .play-button-circle {
-  background-image: url("../../assets/Ellipse 3.png");
+  background-image: url("./../assets/Ellipse3.png");
   background-size: cover;
   position: absolute;
   top: 50%;
@@ -594,7 +594,7 @@
     display: flex;
     width: 92.3%;
     height: 51.6vw;
-    background-image: url("../../assets/mobile_video_image.png");
+    background-image: url("./../assets/mobile_video_image.png");
     margin-bottom: 57px;
   }
   .features-section #mobile-video-image-container .play-button-circle {
